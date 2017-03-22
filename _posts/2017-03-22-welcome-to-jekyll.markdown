@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tutorial
 title:  "Welcome to Jekyll!"
 date:   2017-03-22 14:31:10 +1100
 categories: jekyll update
