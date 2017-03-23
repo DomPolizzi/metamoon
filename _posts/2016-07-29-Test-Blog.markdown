@@ -1,0 +1,20 @@
+---
+title: "Test blog man"
+date: 2016-07-29 12:00:00 +10:00
+categories:
+- blog
+permalink: "/blog/test"
+layout: blog
+author: Jake
+---
+
+
+hoosing your setup is very important. Depending on what discipline(s) you choose (what you plan to do on the board,) from Speedboarding, Sliding, Dancing, Carving, or just cruising around, you need a board thats right for you. Some may ask, 'But I'm new, how would I know what I need?" I'm here to tell you. First we need to consider what the intended purpose for the board is, and what it needs to be good at (personal design preference comes later.)
+
+**SpeedBoarding:**
+
+The thrill of pushing the limits of speed have held mankind since they learned to run -they shortly thereafter learned how to crash.
+
+Stability- You need to be able to stay on the board. Stability means a long wheelbase, wide trucks, and usually restrictive or stiff bushings.
+
+Grip through corners- While staying on the board is important you eventually need to turn, this means a wide board, this will let you put your weight right on top of the wheels pushing them into the pavement and providing grip; also skinny trucks, the skinnier the trucks the more of that pressure you put on the edge of your board gets transfered to the wheels also giving you grip, but beware this sacrifices stability so try to find a good middle that compensates for your skills. Also if you are going to fast to take a turn
