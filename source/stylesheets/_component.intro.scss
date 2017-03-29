@@ -18,8 +18,20 @@
 
 }
 
-.Intro-image {
+.Intro-image {  /* The image used */
+	background-image: url("/Pictures/Header.png");
+
+	height: auto;
+	width: 100%;
+
+	z-index: 0;
+	padding: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 	border-radius: 1.5%
+
 }
 
 .Intro-avatar {
