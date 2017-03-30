@@ -25,7 +25,8 @@
 }
 
 .Grid--withGutter > .Grid-cell {
-    padding: 0 space(0.25);
+    padding: 0 1.125rem;
+    position: relative;
 
     @include respond-to(xs) { padding: 0 space(0.5); }
 }

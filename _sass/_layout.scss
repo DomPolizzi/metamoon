@@ -31,18 +31,6 @@
 		color: $grey-color-dark;
 	}
 }
-.hero-image {
-    // /* The image used */
-    // background-image: url("../Pictures/Header.png");
-    // /* Set a specific height */
-    // height: 50%;
-		//
-    // /* Position and center the image to scale nicely on all screens */
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // position: relative;
-}
 
 /* Place text in the middle of the image */
 .hero-text {
@@ -54,6 +42,20 @@
     color: white;
 }
 
+.HeaderText {
+	// in type.elements & main.css
+	text-align: center;
+
+	word-spacing: .5em;
+	padding-top: 10%;
+	padding-bottom: 10%;
+		h1, h2{
+			font-weight: bold;
+			font-style: italic;
+		}
+
+
+}
 
 .site-nav {
 	float: right;
@@ -200,6 +202,35 @@
 /**
  * Page content
  */
+
+ .post-article {
+	 transition-timing-function: ease-out;
+	 margin-bottom: 1.725rem;
+	 border: 1px solid rgba(3, 13, 24, 0.15);
+	 display: inline-block;
+	 padding: 1.5rem 1.5rem 0.75rem;
+	 text-align: center;
+	 width: 100%;
+ }
+
+ .post-article:hover .post-image{
+	 opacity: 0.3;
+ }
+ .post-article:hover .post-content{
+	 opacity: 0.1;
+ }
+
+ .post-image {
+	opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+	height: 21vh;
+	margin-bottom: 0.75rem;
+	position: relative;
+	width: 100%;
+ }
+
 .page-content {
 	padding: $spacing-unit 0;
 }
@@ -239,10 +270,14 @@
 }
 
 .post-title {
-	margin:10%;
-	font-size: 42px;
-	letter-spacing: -1px;
-	line-height: 1;
+position: relative;
+background-color: transparent;
+color: red;
+font-size: 32px;
+padding: 25% 10%;
+letter-spacing: -1px;
+line-height: 1;
+margin-bottom: 50%;
 
 	@include media-query($on-laptop) {
 		font-size: 36px;
@@ -250,6 +285,12 @@
 }
 
 .post-content {
+	transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 	margin-bottom: $spacing-unit;
 
 	h2 {
