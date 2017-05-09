@@ -45,8 +45,8 @@
 .HeaderText {
 	// in type.elements & main.css
 	text-align: center;
-
-	word-spacing: .5em;
+	padding: 5em;
+	word-spacing: 1em;
 	padding-top: 10%;
 	padding-bottom: 10%;
 		h1, h2{
@@ -348,6 +348,12 @@
 	font-size: 24px;
 }
 
+.main-objects {
+	h3{
+		font-weight: bold;
+		text-align: center;
+	}
+}
 
 
 /**
@@ -404,4 +410,8 @@ margin-bottom: 50%;
 			font-size: 18px;
 		}
 	}
+}
+
+.Zone {
+	padding: 5em;
 }
